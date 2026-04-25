@@ -1,0 +1,22 @@
+<?php
+$string['pluginname'] = 'Prerequisite Course Enforcer';
+$string['prereq_missing'] = 'You cannot access this course yet. You must complete the prerequisites first. Missing:';
+$string['prereqid'] = 'Required Course';
+$string['prereqid_help'] = 'Select the course that the student must complete before they can access the current course.';
+$string['manage_heading'] = 'Global Prerequisite Management';
+$string['targetcourse'] = 'Target Course';
+$string['mode_auto'] = '1. Auto-assign all courses created before the target course';
+$string['mode_manual'] = '2. Manually select courses';
+$string['mode_group'] = 'Prerequisite Mode';
+$string['manual_selection'] = 'Manual Course Selection';
+$string['save_rules'] = 'Save Prerequisite Rules';
+$string['active_rules'] = 'All Active Rules';
+$string['table_target'] = 'Target Course';
+$string['table_requires'] = 'Requires';
+$string['table_action'] = 'Action';
+$string['deleted_course'] = 'Deleted (ID: {$a})';
+$string['delete'] = 'Delete';
+$string['no_rules'] = 'There are no active prerequisite rules on the site.';
+$string['success_deleted'] = 'Prerequisite rule successfully deleted.';
+$string['success_added'] = 'Success! {$a} prerequisite rule(s) added to the database.';
+$string['warning_no_add'] = 'No new rules were added (they might already exist or none were selected).';
